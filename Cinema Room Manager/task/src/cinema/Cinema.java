@@ -149,11 +149,6 @@ public class Cinema {
         return tickets * oneTicketPercent;
     }
 
-    //количество выручки
-//    private static int revenueCalculation(int rows, int seats) {
-//        return calculateTicketPrices() * (rows * seats);
-//    }
-//
     private static int revenueCalculation(int rows, int seats) {
         final int SMALL_TICKET = 10;
         final int LARGE_TICKET = 8;
